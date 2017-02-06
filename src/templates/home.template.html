@@ -1,0 +1,19 @@
+<!-- <div class="col-xs-12 col-sm-9"> -->
+    <!-- <p class="pull-right visible-xs">
+        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+    </p> -->
+      <div class="jumbotron banner">
+        <h1>
+            <span ng-cloak>Welcome,
+                {{!isUserLoggedIn && 'Guest' || facebook.username}}!</span>
+        </h1>
+          <p class="text-center" ng-if="isUserLoggedIn">
+            Please click <a ui-sref="mainList">here</a> to find your current location.
+          </p>
+          <p ng-if="!isUserLoggedIn">
+             This is a User Location Application. Once when you login using your Facebook account, we would be able to spot your location on the Map.
+          </p>
+
+
+    </div>
+<!-- </div> -->
