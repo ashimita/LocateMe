@@ -1,4 +1,4 @@
-### LocateMe
+### LocateMe Application
 
 * It is built on *Angular 1.5*
 
